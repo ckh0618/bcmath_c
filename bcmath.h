@@ -22,7 +22,7 @@ extern "C"  {
   // if aOne > aTwo  -> returns 1 
   // if aOne < aTwo  -> returns -1 
   // if aOne == aTwo  -> returns 0 
-  int bccomp ( char* aOne, char* aTwo ) ;
+  int bccomp ( char* aOne, char* aTwo, int scale, int *aRtn ) ;
 
   enum { BCMATH_SUCCESS, BCMATH_FAILURE } ;
 
